@@ -1,0 +1,635 @@
+#footer { 
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    height: 15%;    
+    width : 100%;    
+}
+
+body{
+    background: rgb(0,0,0);
+    background: linear-gradient(170deg, rgba(0,0,0,1) 0%, rgba(83,77,77,1) 35%, rgba(168,165,165,1) 70%, rgba(255,255,255,1) 100%);
+}
+a{
+    color: white;
+}
+
+a:link { 
+    text-decoration: none;
+}
+
+
+.logo{
+    width: 4%;
+    position: fixed;
+    left: 34%;
+    z-index: 2;
+    top:1%;
+    transition: transform .2s;
+}
+
+.logo:hover{
+    transform: scale(1.16);
+    box-shadow: 0px 1px white;
+}
+
+.contacts{
+    color: white;
+    position: fixed;
+    top: 13%;
+    left:2%;
+    z-index: 2;
+    font-size: 30px;
+    font-family: Montserrat, sans-serif;
+    padding: 5px;
+    font-weight: bold;
+
+  display: inline-block;
+  overflow: hidden;
+  background: linear-gradient(to right, #ba2626, #ba2626 50%, white 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 400ms ease;
+  text-decoration: none;
+   
+    
+}
+
+.contacts:hover{
+    
+    background-position: 0 100%;
+   
+ 
+}
+
+.films_venir{
+    color: white;
+    position: fixed;
+    top: 13%;
+    left:18%;
+    z-index: 2;
+    font-size: 30px;
+    font-family: Montserrat, sans-serif;
+    background: black;
+    padding: 5px;
+    font-weight: bold;
+    display: inline-block;
+    overflow: hidden;
+    background: linear-gradient(to right, #ba2626, #ba2626 50%, white 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 400ms ease;
+    text-decoration: none;
+    
+}
+
+.films_venir:hover{
+
+
+    background-position: 0 100%;
+   
+  
+}
+
+.films_categories{
+    color: white;
+    position: fixed;
+    top: 13%;
+    left:42%;
+    z-index: 2;
+    font-size: 30px;
+    font-family: Montserrat, sans-serif;
+   
+    padding: 5px;
+    font-weight: bold;
+    display: inline-block;
+    overflow: hidden;
+    background: linear-gradient(to right, #ba2626, #ba2626 50%, white 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 400ms ease;
+    text-decoration: none;
+}
+
+.films_categories:hover{
+
+    background-position: 0 100%;
+}
+
+.acteurs{
+    color: white;
+    position: fixed;
+    top: 13%;
+    left:61%;
+    z-index: 2;
+    font-size: 30px;
+    font-family: Montserrat, sans-serif;
+    
+    padding: 5px;
+    font-weight: bold;
+    display: inline-block;
+    overflow: hidden;
+    background: linear-gradient(to right, #ba2626, #ba2626 50%, white 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 400ms ease;
+    text-decoration: none;
+}
+
+.acteurs:hover{
+    background-position: 0 100%;
+}
+
+.jouer{
+    color: white;
+    position: fixed;
+    top: 13%;
+    left:76%;
+    z-index: 2;
+    font-size: 30px;
+    font-family: Montserrat, sans-serif;
+  
+    padding: 5px;
+    font-weight: bold;
+    display: inline-block;
+    overflow: hidden;
+    background: linear-gradient(to right, #ba2626, #ba2626 50%, white 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 400ms ease;
+    text-decoration: none;
+}
+
+.jouer:hover{
+    background-position: 0 100%;
+}
+
+.remerciement{
+    color: white;
+    position: fixed;
+    top: 13%;
+    left:88%;
+    z-index: 2;
+    font-size: 30px;
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+   
+    padding: 5px;
+
+    display: inline-block;
+    overflow: hidden;
+    background: linear-gradient(to right, #ba2626, #ba2626 50%, white 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 400ms ease;
+    text-decoration: none;
+}
+
+.remerciement:hover{
+    background-position: 0 100%;
+}
+
+
+.bandeau{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    height: 22%;
+    width: 100%;
+    opacity: 90%;
+}
+
+.very{
+    width: 20%;
+    height: 40%;
+    opacity: 70%;
+    top:0;
+    right:0;
+    padding: 30px;
+    border-radius: 15%;
+}
+.intouchable{
+    width: 20%;
+    height: 40%;
+    opacity: 70%;
+    padding: 30px;
+    border-radius: 15%;
+}
+.toy{
+    width: 20%;
+    height: 40%;
+    opacity: 70%;
+    padding: 30px;
+    border-radius: 15%;
+}
+.avenger{
+    width: 20%;
+    height: 40%;
+    opacity: 70%;
+    padding: 30px;
+    border-radius: 15%;
+}
+.shrek{
+    width: 20%;
+    height: 40%;
+    opacity: 70%;
+    padding: 30px;
+    border-radius: 15%;
+}
+.avatar{
+    width: 20%;
+    height: 40%;
+    opacity: 70%;
+    padding: 30px;
+    border-radius: 15%;
+}
+.inception{
+    width: 20%;
+    height: 40%;
+    opacity: 70%;
+    padding: 30px;
+    border-radius: 15%;
+}
+.et{
+    width: 20%;
+    height: 40%;
+    opacity: 70%;
+    padding: 30px;
+    border-radius: 15%;
+}
+
+
+.et:hover{
+    opacity: 100%;
+    border-image: black;
+}
+
+.very:hover{
+    opacity: 100%;
+    border-image: black;
+}
+
+.intouchable:hover{
+    opacity: 100%;
+    border-image: black;
+}
+
+.toy:hover{
+    opacity: 100%;
+    border-image: black;
+}
+
+.avenger:hover{
+    opacity: 100%;
+    border-image: black;
+}
+
+
+.avatar:hover{
+    opacity: 100%;
+    border-image: black;
+}
+
+.inception:hover{
+    opacity: 100%;
+    border-image: black;
+}
+
+.shrek:hover{
+    opacity: 100%;
+    border-image: black;
+}
+
+
+
+
+.facebook{
+    position: fixed;
+    bottom: 27px;
+    left:10%;
+    z-index: 2;
+    filter: invert(100%); 
+
+}
+
+.twitter{
+    position: fixed;
+    bottom: 2%;
+    left:46%;
+    z-index: 2;
+    filter: invert(100%); 
+}
+
+.youtube{
+    position: fixed;
+    bottom:4%;
+    left:80%;
+    z-index: 2;
+    filter: invert(100%); 
+}
+
+.suivez{
+    z-index: 2;
+    font-size: 15px;
+    color: white;
+    position: fixed;
+    top:87%;
+    left:46%;
+    font-family: Open Sans, sans-serif;
+    font-weight: bold;
+}
+
+.hugo{
+    position: fixed;
+    left:20%;
+    top:30%;
+    border-radius: 50%;
+ 
+
+}
+
+.benoit{
+    position: fixed;
+    left:60%;
+    top:30%;
+    border-radius: 50%;
+}
+
+
+.overlay {
+    position: absolute;
+    top:30%;
+    left: 20%;
+    right: 0;
+    background-color: rgb(17, 81, 100);
+    opacity: 70%;
+    overflow: hidden;
+    width: 0;
+    height: 24%;
+    transition: .5s ease;
+    border-radius: 50%;
+}
+  
+.container:hover .overlay {
+    width: 12%;
+}
+  
+.text {
+    white-space: nowrap; 
+    color: white;
+    font-size: 17px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-family: 'MontserratBold';
+}
+
+.overlay2 {
+    position: absolute;
+    top: 30%;
+    left: 60%;
+    right: 0;
+    background-color: rgb(156, 100, 54);
+    opacity: 70%;
+    overflow: hidden;
+    width: 0;
+    height: 24%;
+    transition: .5s ease;
+    border-radius: 50%;
+}
+  
+.container2:hover .overlay2 {
+    width: 12%;
+}
+  
+.text2 {
+    white-space: nowrap; 
+    color: white;
+    font-size: 17px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-family: 'MontserratBold';
+}
+
+.createurs{
+    font-size: 40px;
+    font-family: Roboto, sans-serif;
+    position: fixed;
+    top:30%;
+    left:38%;
+    color: grey;
+}
+
+.mediaplanet{
+    font-size: 50px;
+    font-family: 'Bookman';
+    position: fixed;
+    top:40%;
+    left:37%;
+    color: yellow;
+    text-shadow: #474747 3px 5px 2px;
+    
+}
+
+.liste1{
+    list-style: square inside;
+    font-family: 'Arial'; 
+    position: fixed;
+    bottom: 15%;
+    left:18%;
+    color: white;
+    font-size: 19px;
+    background: -webkit-linear-gradient(yellow, white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+.liste2{
+    color: white;
+    font-size: 18px;
+    font-family: 'Arial'; 
+    list-style: square inside;
+    position: fixed;
+    bottom: 13%;
+    left:59%;
+    background: -webkit-linear-gradient(yellow, white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+pre{
+
+    font-family: 'Arial';
+      
+}
+
+ul li{
+    color: black;
+    
+}
+
+
+
+@media screen and (min-width: 981px) and (max-width: 1600px) {
+    .hugo{
+        width: 10%;
+    }
+    
+    .benoit{
+        width: 10%;
+    }
+    
+ }
+
+
+
+@media screen and (max-width: 980px) {
+   
+
+    .facebook{
+        position: fixed;
+        width: 12%;
+    
+    }
+    
+    .twitter{
+        position: fixed;
+        width: 10%;
+        bottom: 1%;
+    }
+    
+    .youtube{
+        position: fixed;
+        width: 8%;
+        bottom: 2%;
+    }
+
+    .suivez{
+        font-size: 40px;
+        left:39%;
+    }
+
+    .contacts{
+      font-size: 22px;
+       
+        
+    }
+    
+    
+    .films_venir{
+        font-size: 22px;
+    }
+    
+   
+    
+    .films_categories{
+        font-size: 22px;
+    }
+    
+    
+    
+    .acteurs{
+        font-size: 22px;
+    }
+    
+   
+    .jouer{
+        font-size: 22px;
+    }
+    
+   
+    
+    .remerciement{
+        font-size: 22px;
+    }
+
+    .logo{
+        width: 12%;
+    }
+
+    .benoit{
+        width: 25%;
+        left:70%;
+    }
+
+    .hugo{
+        width: 25%;
+        left:8%;
+        
+    }
+
+    .mediaplanet{
+        top:35%;
+    }
+
+    .liste1{
+        font-size: 30px;
+        left:3%;
+        bottom: 29%;
+    }
+
+    .liste2{
+        font-size: 30px;
+        left:55%;
+        bottom: 26%;
+    }
+
+    .overlay2 {
+        position: absolute;
+        top: 30%;
+        left: 60%;
+        right: 0;
+        background-color: rgb(156, 100, 54);
+        opacity: 70%;
+        overflow: hidden;
+        width: 0;
+        height: 24%;
+        transition: .5s ease;
+        border-radius: 50%;
+    }
+
+    .overlay {
+        position: absolute;
+        top:30%;
+        left: 10%;
+        right: 0;
+        background-color: rgb(17, 81, 100);
+        opacity: 70%;
+        overflow: hidden;
+        width: 0;
+        height: 13%;
+        transition: .5s ease;
+        border-radius: 50%;
+    }
+}
+
+
+

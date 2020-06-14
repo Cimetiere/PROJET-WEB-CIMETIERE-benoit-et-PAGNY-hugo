@@ -1,0 +1,110 @@
+<html>
+    <head>
+        <link rel="icon" href="favicon.ico" type="image/x-icon"> 
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <title> Nouveaux films - Media Planet</title>
+        <link href="film_a_venir.css"  rel="stylesheet"/> 
+
+      
+
+        <a href="projet.html"> <img src="logo.png"  class="logo" > </a>
+        <div>Media Planet</div>
+
+        <img src="noir.png" class="bandeau">
+        <div class="contacts">
+            <a href="contacts.html" > CONTACTS</a>
+        </div>
+        <div class="films_venir" >
+            <a href="film_a_venir.html" >NOUVEAUX FILMS </a>
+        </div>
+        <div class="films_categories">
+            <a href="categories.html" >CATÉGORIES </a>
+        </div>
+        <div class="acteurs">
+            <a href="acteurs.html" >ACTEURS</a>
+        </div>
+        <div class="jouer">
+            <a href="noter.html" >JOUER</a>
+        </div>
+        <div class="remerciement">
+            <a href="remerciement.html" >CÉSAR</a>
+        </div>
+
+        
+    </head>
+
+    <body>
+
+        <div class="prochainement">PROCHAINEMENT </div>
+        <div class="sur"> SUR</div>
+        <div class="ecrans">VOS ÉCRANS</div>
+        
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+           <a href="https://www.youtube.com/watch?v=XRF6uuubGcI"  target="_blank">  <img src="enavant.png" style="width:34%" class="enavant" title="Cliquer pour voir la Bande Annonce"> </a> 
+            <div class="text">Dans la banlieue d'un univers imaginaire, deux frères elfes se lancent dans une quête extraordinaire pour découvrir s'il reste encore un peu de magie dans le monde.</div>
+            </div>
+            
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <a href="https://www.youtube.com/watch?v=KsOUy9TJ1EQ"  target="_blank"> <img src="monos.png" style="width:34%"  class="enavant" title="Cliquer pour voir la Bande Annonce"></a> 
+            <div class="text">Dans ce qui ressemble à un camp de vacances isolé au sommet des montagnes colombiennes, huit adolescents, tous armés, sont en réalité chargés de veiller à ce que Doctora, une otage américaine, reste en vie. Cependant, lorsqu'ils tuent accidentellement la vache prêtée par les paysans du coin, et que l'armée régulière se rapproche, l'heure n'est plus au jeu mais à la fuite dans la jungle.</div>
+            </div>
+            
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <a href="https://www.youtube.com/watch?v=Qh7VpkAXPFQ"  target="_blank"> <img src="gaulle.png" style="width:34%" class="enavant" title="Cliquer pour voir la Bande Annonce"></a> 
+            <div class="text">Mai 1940. La guerre s’intensifie, l’armée française s’effondre, les Allemands seront bientôt à Paris. La panique gagne le gouvernement qui envisage d’accepter la défaite. Un homme, Charles de Gaulle, fraîchement promu général, veut infléchir le cours de l’Histoire. Sa femme, Yvonne de Gaulle, est son premier soutien, mais très vite les évènements les séparent. Yvonne et ses enfants se lancent sur les routes de l’exode. Charles rejoint Londres. Il veut faire entendre une autre voix : celle de la Résistance.</div>
+            </div>
+            
+        </div>
+
+        <br>
+        
+        <div style="text-align:center">
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+        </div>
+        
+    
+    
+       
+        
+    </body>
+
+    <footer>
+        <img id="footer" src="noir.png"/>
+
+        <div class="suivez">SUIVEZ-NOUS</div>
+        
+        <a href="https://www.facebook.com/benoit.cimetiere" target="_blank">  <img src="facebook.png" class="facebook" width="6%"> </a>
+        <a href="https://twitter.com/PgyHugo" target="_blank">  <img src="twitter.png" class="twitter" width="5%">  </a>
+        <a href="https://www.youtube.com/channel/UCJ8uER1xfmdC9TY87EzDRkQ?view_as=subscriber" target="_blank">  <img src="youtube.png" class="youtube" width="4%">   </a>
+    </footer>
+
+    <script>
+        var slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+          setTimeout(showSlides, 5000); // Change image every 5 seconds
+        }
+    </script>
+
+</html>

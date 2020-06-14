@@ -1,0 +1,481 @@
+#footer { 
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    height: 15%;    
+    width : 100%;    
+}
+
+html{
+    min-height: 400%;
+}
+
+body{
+    
+    background: linear-gradient(170deg, rgba(0,0,0,1) 0%, rgba(83,77,77,1) 5%, rgba(168,165,165,1) 50%, rgba(255,255,255,1) 150% );
+}
+a{
+    color: white;
+}
+
+a:link { 
+    text-decoration: none;
+}
+
+.media{
+    position: fixed;
+    color: white;
+    left: 40%;
+    font-size: 50px;
+    top: 14px;
+    z-index: 2;
+    font-family: 'Palatino';
+}
+
+
+
+
+.logo{
+    width: 4%;
+    position: fixed;
+    left: 34%;
+    z-index: 2;
+    top:1%;
+    transition: transform .2s;
+}
+
+.logo:hover{
+    transform: scale(1.16);
+    box-shadow: 0px 1px white;
+}
+
+
+.contacts{
+    color: white;
+    position: fixed;
+    top: 13%;
+    left:2%;
+    z-index: 2;
+    font-size: 30px;
+    font-family: Montserrat, sans-serif;
+    padding: 5px;
+    font-weight: bold;
+
+  display: inline-block;
+  overflow: hidden;
+  background: linear-gradient(to right, #ba2626, #ba2626 50%, white 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 400ms ease;
+  text-decoration: none;
+   
+    
+}
+
+.contacts:hover{
+    
+    background-position: 0 100%;
+   
+ 
+}
+
+.films_venir{
+    color: white;
+    position: fixed;
+    top: 13%;
+    left:18%;
+    z-index: 2;
+    font-size: 30px;
+    font-family: Montserrat, sans-serif;
+    background: black;
+    padding: 5px;
+    font-weight: bold;
+    display: inline-block;
+    overflow: hidden;
+    background: linear-gradient(to right, #ba2626, #ba2626 50%, white 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 400ms ease;
+    text-decoration: none;
+    
+}
+
+.films_venir:hover{
+
+
+    background-position: 0 100%;
+   
+  
+}
+
+.films_categories{
+    color: white;
+    position: fixed;
+    top: 13%;
+    left:42%;
+    z-index: 2;
+    font-size: 30px;
+    font-family: Montserrat, sans-serif;
+   
+    padding: 5px;
+    font-weight: bold;
+    display: inline-block;
+    overflow: hidden;
+    background: linear-gradient(to right, #ba2626, #ba2626 50%, white 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 400ms ease;
+    text-decoration: none;
+}
+
+.films_categories:hover{
+
+    background-position: 0 100%;
+}
+
+.acteurs{
+    color: white;
+    position: fixed;
+    top: 13%;
+    left:61%;
+    z-index: 2;
+    font-size: 30px;
+    font-family: Montserrat, sans-serif;
+    
+    padding: 5px;
+    font-weight: bold;
+    display: inline-block;
+    overflow: hidden;
+    background: linear-gradient(to right, #ba2626, #ba2626 50%, white 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 400ms ease;
+    text-decoration: none;
+}
+
+.acteurs:hover{
+    background-position: 0 100%;
+}
+
+.jouer{
+    color: white;
+    position: fixed;
+    top: 13%;
+    left:76%;
+    z-index: 2;
+    font-size: 30px;
+    font-family: Montserrat, sans-serif;
+  
+    padding: 5px;
+    font-weight: bold;
+    display: inline-block;
+    overflow: hidden;
+    background: linear-gradient(to right, #ba2626, #ba2626 50%, white 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 400ms ease;
+    text-decoration: none;
+}
+
+.jouer:hover{
+    background-position: 0 100%;
+}
+
+.remerciement{
+    color: white;
+    position: fixed;
+    top: 13%;
+    left:88%;
+    z-index: 2;
+    font-size: 30px;
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+   
+    padding: 5px;
+
+    display: inline-block;
+    overflow: hidden;
+    background: linear-gradient(to right, #ba2626, #ba2626 50%, white 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 400ms ease;
+    text-decoration: none;
+}
+
+.remerciement:hover{
+    background-position: 0 100%;
+}
+
+.bandeau{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    height: 22%;
+    width: 100%;
+    opacity: 90%;
+}
+
+.very{
+    width: 20%;
+    height: 40%;
+    opacity: 70%;
+    top:0;
+    right:0;
+    padding: 30px;
+    border-radius: 15%;
+}
+.intouchable{
+    width: 20%;
+    height: 40%;
+    opacity: 70%;
+    padding: 30px;
+    border-radius: 15%;
+}
+.toy{
+    width: 20%;
+    height: 40%;
+    opacity: 70%;
+    padding: 30px;
+    border-radius: 15%;
+}
+.avenger{
+    width: 20%;
+    height: 40%;
+    opacity: 70%;
+    padding: 30px;
+    border-radius: 15%;
+}
+.shrek{
+    width: 20%;
+    height: 40%;
+    opacity: 70%;
+    padding: 30px;
+    border-radius: 15%;
+}
+.avatar{
+    width: 20%;
+    height: 40%;
+    opacity: 70%;
+    padding: 30px;
+    border-radius: 15%;
+}
+.inception{
+    width: 20%;
+    height: 40%;
+    opacity: 70%;
+    padding: 30px;
+    border-radius: 15%;
+}
+.et{
+    width: 20%;
+    height: 40%;
+    opacity: 70%;
+    padding: 30px;
+    border-radius: 15%;
+}
+
+
+.et:hover{
+    opacity: 100%;
+    border-image: black;
+}
+
+.very:hover{
+    opacity: 100%;
+    border-image: black;
+}
+
+.intouchable:hover{
+    opacity: 100%;
+    border-image: black;
+}
+
+.toy:hover{
+    opacity: 100%;
+    border-image: black;
+}
+
+.avenger:hover{
+    opacity: 100%;
+    border-image: black;
+}
+
+
+.avatar:hover{
+    opacity: 100%;
+    border-image: black;
+}
+
+.inception:hover{
+    opacity: 100%;
+    border-image: black;
+}
+
+.shrek:hover{
+    opacity: 100%;
+    border-image: black;
+}
+
+
+.facebook{
+    position: fixed;
+    bottom: 27px;
+    left:10%;
+    z-index: 2;
+    filter: invert(100%); 
+
+}
+
+.twitter{
+    position: fixed;
+    bottom: 2%;
+    left:46%;
+    z-index: 2;
+    filter: invert(100%); 
+}
+
+.youtube{
+    position: fixed;
+    bottom:4%;
+    left:80%;
+    z-index: 2;
+    filter: invert(100%); 
+}
+
+.suivez{
+    z-index: 2;
+    font-size: 15px;
+    color: white;
+    position: fixed;
+    top:87%;
+    left:46%;
+    font-family: Open Sans, sans-serif;
+    font-weight: bold;
+}
+
+
+@media screen and (max-width: 980px) {
+   
+
+    .facebook{
+        position: fixed;
+        width: 12%;
+    
+    }
+    
+    .twitter{
+        position: fixed;
+        width: 10%;
+        bottom: 1%;
+    }
+    
+    .youtube{
+        position: fixed;
+        width: 8%;
+        bottom: 2%;
+    }
+
+    .suivez{
+        font-size: 40px;
+        left:39%;
+    }
+
+    .contacts{
+      font-size: 22px;
+       
+        
+    }
+    
+    
+    .films_venir{
+        font-size: 22px;
+    }
+    
+   
+    
+    .films_categories{
+        font-size: 22px;
+    }
+    
+    
+    
+    .acteurs{
+        font-size: 22px;
+    }
+    
+   
+    .jouer{
+        font-size: 22px;
+    }
+    
+   
+    
+    .remerciement{
+        font-size: 22px;
+    }
+
+    .logo{
+        width: 12%;
+    }
+
+}
+
+.image{
+    float: left;
+    box-shadow: 0 15px 50px rgba(0,0,0,.2);
+    margin: 0 15px 0 15px;
+    border: 2px solid black;
+    display:block;
+    border-radius: 100px;
+    box-shadow: 6px 4px 7px 2px rgba(168,158,168,1);
+   
+}
+
+table{
+    position: relative;
+    top:7%;
+    color: white;
+}
+
+.text{
+    color: black ;
+    font-weight: bold;
+}
+
+td{
+    padding: 25px;
+    font-family: Verdana;
+}
+
+.image:hover{
+    transform: scale(1.3);
+    
+}
+
+td{
+    text-align: justify;
+}
+
+
+
+
+

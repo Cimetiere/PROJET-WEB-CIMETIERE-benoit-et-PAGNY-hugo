@@ -1,0 +1,586 @@
+#footer { 
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    height: 15%;    
+    width : 100%;    
+}
+
+
+
+html{
+    min-height: 220%;
+}
+body{
+
+    background: linear-gradient(170deg, rgba(0,0,0,1) 0%, rgba(83,77,77,1) 5%, rgba(168,165,165,1) 50%, rgba(255,255,255,1) 150% );
+
+}
+a{
+    color: white;
+}
+
+a:link { 
+    text-decoration: none;
+}
+
+.media{
+    position: fixed;
+    color: white;
+    left: 40%;
+    font-size: 50px;
+    top: 14px;
+    z-index: 2;
+    font-family: 'Palatino';
+}
+
+
+
+.logo{
+    width: 4%;
+    position: fixed;
+    left: 34%;
+    z-index: 2;
+    top:1%;
+    transition: transform .2s;
+}
+
+.logo:hover{
+    transform: scale(1.16);
+    box-shadow: 0px 1px white;
+}
+
+.contacts{
+    color: white;
+    position: fixed;
+    top: 13%;
+    left:2%;
+    z-index: 2;
+    font-size: 30px;
+    font-family: Montserrat, sans-serif;
+    padding: 5px;
+    font-weight: bold;
+
+  display: inline-block;
+  overflow: hidden;
+  background: linear-gradient(to right, #ba2626, #ba2626 50%, white 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 400ms ease;
+  text-decoration: none;
+   
+    
+}
+
+.contacts:hover{
+    
+    background-position: 0 100%;
+   
+ 
+}
+
+.films_venir{
+    color: white;
+    position: fixed;
+    top: 13%;
+    left:18%;
+    z-index: 2;
+    font-size: 30px;
+    font-family: Montserrat, sans-serif;
+    background: black;
+    padding: 5px;
+    font-weight: bold;
+    display: inline-block;
+    overflow: hidden;
+    background: linear-gradient(to right, #ba2626, #ba2626 50%, white 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 400ms ease;
+    text-decoration: none;
+    
+}
+
+.films_venir:hover{
+
+
+    background-position: 0 100%;
+   
+  
+}
+
+.films_categories{
+    color: white;
+    position: fixed;
+    top: 13%;
+    left:42%;
+    z-index: 2;
+    font-size: 30px;
+    font-family: Montserrat, sans-serif;
+   
+    padding: 5px;
+    font-weight: bold;
+    display: inline-block;
+    overflow: hidden;
+    background: linear-gradient(to right, #ba2626, #ba2626 50%, white 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 400ms ease;
+    text-decoration: none;
+}
+
+.films_categories:hover{
+
+    background-position: 0 100%;
+}
+
+.acteurs{
+    color: white;
+    position: fixed;
+    top: 13%;
+    left:61%;
+    z-index: 2;
+    font-size: 30px;
+    font-family: Montserrat, sans-serif;
+    
+    padding: 5px;
+    font-weight: bold;
+    display: inline-block;
+    overflow: hidden;
+    background: linear-gradient(to right, #ba2626, #ba2626 50%, white 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 400ms ease;
+    text-decoration: none;
+}
+
+.acteurs:hover{
+    background-position: 0 100%;
+}
+
+.jouer{
+    color: white;
+    position: fixed;
+    top: 13%;
+    left:76%;
+    z-index: 2;
+    font-size: 30px;
+    font-family: Montserrat, sans-serif;
+  
+    padding: 5px;
+    font-weight: bold;
+    display: inline-block;
+    overflow: hidden;
+    background: linear-gradient(to right, #ba2626, #ba2626 50%, white 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 400ms ease;
+    text-decoration: none;
+}
+
+.jouer:hover{
+    background-position: 0 100%;
+}
+
+.remerciement{
+    color: white;
+    position: fixed;
+    top: 13%;
+    left:88%;
+    z-index: 2;
+    font-size: 30px;
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+   
+    padding: 5px;
+
+    display: inline-block;
+    overflow: hidden;
+    background: linear-gradient(to right, #ba2626, #ba2626 50%, white 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 400ms ease;
+    text-decoration: none;
+}
+
+.remerciement:hover{
+    background-position: 0 100%;
+}
+
+
+.bandeau{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    height: 22%;
+    width: 100%;
+    opacity: 90%;
+}
+
+.very{
+    width: 20%;
+    height: 40%;
+    opacity: 70%;
+    top:0;
+    right:0;
+    padding: 30px;
+    border-radius: 15%;
+}
+.intouchable{
+    width: 20%;
+    height: 40%;
+    opacity: 70%;
+    padding: 30px;
+    border-radius: 15%;
+}
+.toy{
+    width: 20%;
+    height: 40%;
+    opacity: 70%;
+    padding: 30px;
+    border-radius: 15%;
+}
+.avenger{
+    width: 20%;
+    height: 40%;
+    opacity: 70%;
+    padding: 30px;
+    border-radius: 15%;
+}
+.shrek{
+    width: 20%;
+    height: 40%;
+    opacity: 70%;
+    padding: 30px;
+    border-radius: 15%;
+}
+.avatar{
+    width: 20%;
+    height: 40%;
+    opacity: 70%;
+    padding: 30px;
+    border-radius: 15%;
+}
+.inception{
+    width: 20%;
+    height: 40%;
+    opacity: 70%;
+    padding: 30px;
+    border-radius: 15%;
+}
+.et{
+    width: 20%;
+    height: 40%;
+    opacity: 70%;
+    padding: 30px;
+    border-radius: 15%;
+}
+
+
+.et:hover{
+    opacity: 100%;
+    border-image: black;
+}
+
+.very:hover{
+    opacity: 100%;
+    border-image: black;
+}
+
+.intouchable:hover{
+    opacity: 100%;
+    border-image: black;
+}
+
+.toy:hover{
+    opacity: 100%;
+    border-image: black;
+}
+
+.avenger:hover{
+    opacity: 100%;
+    border-image: black;
+}
+
+
+.avatar:hover{
+    opacity: 100%;
+    border-image: black;
+}
+
+.inception:hover{
+    opacity: 100%;
+    border-image: black;
+}
+
+.shrek:hover{
+    opacity: 100%;
+    border-image: black;
+}
+
+
+.facebook{
+    position: fixed;
+    bottom: 27px;
+    left:10%;
+    z-index: 2;
+    filter: invert(100%); 
+
+}
+
+.twitter{
+
+    position: fixed;
+    bottom: 2%;
+    left:46%;
+    z-index: 2;
+    filter: invert(100%); 
+}
+
+.youtube{
+    position: fixed;
+    bottom:4%;
+    left:80%;
+    z-index: 2;
+    filter: invert(100%); 
+}
+.suivez{
+    z-index: 2;
+    font-size: 15px;
+    color: white;
+    position: fixed;
+    top:87%;
+    left:46%;
+    font-family: Open Sans, sans-serif;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 1601px) and (max-width: 3000px) {
+    #tableau{
+        position: relative;
+        top:25% !important;
+        left:40%;
+    }
+
+    form{
+        max-width: 3000px !important;
+    }
+}
+
+@media screen and (min-width: 981px) and (max-width: 1600px) {
+    #tableau{
+    
+        position: relative;
+        top:37% !important;
+        left:40%;
+    
+    }
+
+    form{
+        max-width: 680px !important;
+    }
+}
+
+
+@media screen and (max-width: 980px) {
+   
+
+    .facebook{
+        position: fixed;
+        width: 12%;
+    
+    }
+    
+    .twitter{
+        position: fixed;
+        width: 10%;
+        bottom: 1%;
+    }
+    
+    .youtube{
+        position: fixed;
+        width: 8%;
+        bottom: 2%;
+    }
+
+    .suivez{
+        font-size: 40px;
+        left:39%;
+    }
+
+    .contacts{
+      font-size: 22px;
+       
+        
+    }
+    
+    
+    .films_venir{
+        font-size: 22px;
+    }
+    
+   
+    
+    .films_categories{
+        font-size: 22px;
+    }
+    
+    
+    
+    .acteurs{
+        font-size: 22px;
+    }
+    
+   
+    .jouer{
+        font-size: 22px;
+    }
+    
+   
+    
+    .remerciement{
+        font-size: 22px;
+    }
+
+    .logo{
+        width: 12%;
+    }
+
+    
+    form{
+        max-width: 700px !important;
+    }
+
+    #tableau{
+        position: relative;
+        top:23% !important;
+        left:40%;
+    }
+
+
+
+
+
+}
+
+form {
+    margin: 0 auto;
+    padding: 1em;
+    border: 1px solid #CCC;
+    box-shadow: -1px -4px 41px -7px rgba(0,0,0,0.75);
+    background-color: white;
+    max-width: 2000px;
+    top:30%;
+    left:20%;
+    position: absolute;
+}
+
+.division{
+    display: inline-block;
+
+}
+
+::-webkit-input-placeholder {
+    text-align: center;
+}
+
+select{
+    text-align-last:center;
+    padding: 20px 10px;
+}
+
+input[type="text"]{ 
+    padding: 20px 30px;
+    border-bottom: 1px solid black;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    margin: 20px;
+    font-family: Montserrat, sans-serif;
+    font-size: 17px;
+}
+
+select[type="select"]{
+    padding: 20px 30px;
+    border-bottom: 1px solid black;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    margin: 20px;
+    color: grey;
+    font-family: Montserrat, sans-serif;
+    font-size: 17px;
+}
+
+button{
+    padding: 10px 10px;
+}
+
+#tableau{
+    
+    position: relative;
+    top:25%;
+    left:40%;
+
+}
+
+table{
+   
+    border-collapse:collapse;
+    
+    
+}
+
+th,td,table{
+    
+    border: 8px solid black;
+    padding: 10px;
+
+}
+
+input:focus {
+    outline:  none;
+}   
+
+select:focus {
+    outline:  none;
+}  
+
+input:required{
+    border-color: #800000;
+    border-width: 1.5px;
+}
+
+input:required:valid{
+    border-color: #008000;
+    
+}
+
+select:required{
+    border-color: #800000;
+    border-width: 1.5px;
+}
+
+select:required:valid{
+    border-color: #008000;
+    
+}
+

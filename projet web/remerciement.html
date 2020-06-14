@@ -1,0 +1,390 @@
+<html>
+    <head>
+        <link rel="icon" href="favicon.ico" type="image/x-icon"> 
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <title> César - Media Planet</title>
+        <link href="remerciement.css"  rel="stylesheet"/> 
+
+     
+
+        <a href="projet.html"> <img src="logo.png"  class="logo" > </a>
+        <img src="noir.png" class="bandeau">
+        
+        <div class="contacts">
+            <a href="contacts.html" > CONTACTS</a>
+        </div>
+        <div class="films_venir" >
+            <a href="film_a_venir.html" >NOUVEAUX FILMS </a>
+        </div>
+        <div class="films_categories">
+            <a href="categories.html" >CATÉGORIES </a>
+        </div>
+        <div class="acteurs">
+            <a href="acteurs.html" >ACTEURS</a>
+        </div>
+        <div class="jouer">
+            <a href="noter.html" >JOUER</a>
+        </div>
+        <div class="remerciement">
+            <a href="remerciement.html" >CÉSAR</a>
+        </div>
+    </head>
+
+    <body>
+
+        <div class="toute">TOUTES LES <br> <div class="nominations"> NOMINATIONS  </div>  AUX </div>
+        <div class="césar">CÉSAR 2020</div>
+        
+
+        <div class="iconGauche">
+            <a href="#" onclick="iconGauche()">❮</a>
+            
+        </div>
+        <div class="iconDroit">
+            <a href="#" onclick="iconDroit()">❯</a>
+        </div>
+
+        <div class="pagination">
+            <a onclick="showFilm()" id="1" href="#">Meilleur film</a>
+            <a onclick="showRéalisateur()" id="2" href="#">Meilleur réalisateur</a>
+            <a onclick="showCourt()" href="#" id="3">Meilleur court métrage</a>
+            <a onclick="showSon()" href="#" id="4">Meilleur son</a>
+        </div>
+
+        <table id="film">
+            <tr>
+                <th>
+                    Titre
+                </th>
+                <th>
+                    Prénom / Nom
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    Portrait de la jeune fille en feu
+                </td>
+                <td>
+                    Céline Sciamma
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Grâce à Dieu
+                </td>
+                <td>
+                    François Ozon
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Hors Normes
+                </td>
+                <td>
+                    Olivier Nakache
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    J'accuse
+                </td>
+                <td>
+                    Roman Polanski
+                </td>
+                
+            </tr>
+            <tr>
+                <td>
+                    Les Misérables
+                </td>
+                <td>
+                    Ladj Ly
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    La Belle Époque
+                </td>
+                <td>
+                    Nicolas Bedos
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Roubaix, une lumière 
+                </td>
+                <td>
+                    Arnaud Desplechin
+                </td>
+            </tr>
+        </table>
+
+        <table id="réalisateur">
+            <tr>
+                <th>
+                    Titre
+                </th>
+                <th>
+                    Prénom / Nom
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    J'accuse
+                </td>
+                <td>
+                    Roman Polanski
+                </td>
+                
+            </tr>
+            <tr>
+                <td>
+                    Les Misérables
+                </td>
+                <td>
+                    Ladj Ly
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    La Belle Époque
+                </td>
+                <td>
+                    Nicolas Bedos
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Roubaix, une lumière 
+                </td>
+                <td>
+                    Arnaud Desplechin
+                </td>
+            </tr>
+        </table>
+
+        <table id="court">
+            <tr>
+                <th>
+                    Titre
+                </th>
+                <th>
+                    Prénom / Nom
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    Beautiful Loser
+                </td>
+                <td>
+                    Maxime Roy
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Le Chant d'Ahmed
+                </td>
+                <td>
+                    Foued Mansour
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Chien Bleu
+                </td>
+                <td>
+                    Fanny Liatard et Jérémy Trouilh
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Nefta Football Club
+                </td>
+                <td>
+                    Yves Piat
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Pile poil
+                </td>
+                <td>
+                    Lauriane Escaffre et Yvonnick Muller 
+                </td>
+            </tr>
+        </table>
+
+        <table id="son">
+            <tr>
+                <th>
+                    Titre
+                </th>
+                <th>
+                    Prénom / Nom
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    La Belle Epoque
+                </td>
+                <td>
+                    Rémi Daru et Séverin Favriau
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    J'accuse
+                </td>
+                <td>
+                    Lucien Balibar et Aymeric Devoldère  
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Le Chant du Loup
+                </td>
+                <td>
+                    Nicolas Cantin et Thomas Desjonquières 
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Les Misérables
+                </td>
+                <td>
+                    Arnaud Lavaleix et Jérôme Gonthier 
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Portrait de la jeune fille en feu
+                </td>
+                <td>
+                    Julien Sicart et Valérie de Loof 
+                </td>
+            </tr>
+        </table>
+        
+    </body>
+
+    <footer>
+        <img id="footer" src="noir.png"/>
+
+        <div class="suivez">SUIVEZ-NOUS</div>
+        <div> © Made in EFREI</div>
+        <a href="https://www.facebook.com/benoit.cimetiere" target="_blank">  <img src="facebook.png" class="facebook" width="6%"> </a>
+        <a href="https://twitter.com/PgyHugo" target="_blank">  <img src="twitter.png" class="twitter" width="5%">  </a>
+        <a href="https://www.youtube.com/channel/UCJ8uER1xfmdC9TY87EzDRkQ?view_as=subscriber" target="_blank">  <img src="youtube.png" class="youtube" width="4%">   </a>
+    </footer>
+
+    <script>
+        document.getElementById("réalisateur").style.display = "none";
+        document.getElementById("court").style.display = "none";
+        document.getElementById("son").style.display = "none";
+        document.getElementById("1").style.background = "yellow";
+
+        function showFilm(){
+            document.getElementById("4").style.background = "white";
+            document.getElementById("1").style.background = "yellow";
+            document.getElementById("2").style.background = "white";
+            document.getElementById("3").style.background = "white";
+            let film = document.getElementById("film");
+            let réalisateur = document.getElementById("réalisateur");
+            let court = document.getElementById("court");
+            let son = document.getElementById("son");
+            if(getComputedStyle(réalisateur).display != "none" || getComputedStyle(court).display != "none" || getComputedStyle(son).display != "none"){
+                réalisateur.style.display = "none";
+                court.style.display = "none";
+                film.style.display = "table";
+                son.style.display = "none";
+            } else {
+                film.style.display = "table";
+            }
+        };
+
+        function showRéalisateur(){
+            document.getElementById("4").style.background = "white";
+            document.getElementById("2").style.background = "yellow";
+            document.getElementById("1").style.background = "white";
+            document.getElementById("3").style.background = "white";
+            let film = document.getElementById("film");
+            let réalisateur = document.getElementById("réalisateur");
+            let court = document.getElementById("court");
+            let son = document.getElementById("son");
+            if(getComputedStyle(film).display != "none" || getComputedStyle(court).display != "none" || getComputedStyle(son).display != "none"){
+                court.style.display = "none";
+                réalisateur.style.display = "table";
+                film.style.display = "none";
+                son.style.display = "none";
+            } else {
+                réalisateur.style.display = "table";
+            }
+        };
+
+        function showCourt(){
+            document.getElementById("4").style.background = "white";
+            document.getElementById("3").style.background = "yellow";
+            document.getElementById("2").style.background = "white";
+            document.getElementById("1").style.background = "white";
+            let film = document.getElementById("film");
+            let réalisateur = document.getElementById("réalisateur");
+            let court = document.getElementById("court");
+            let son = document.getElementById("son");
+            if(getComputedStyle(film).display != "none" || getComputedStyle(réalisateur).display != "none" || getComputedStyle(son).display != "none"){
+                court.style.display = "table";
+                film.style.display = "none";
+                réalisateur.style.display = "none";
+                son.style.display = "none";
+            } else {
+                court.style.display = "table";
+            }
+        };
+
+        function showSon(){
+            document.getElementById("4").style.background = "yellow";
+            document.getElementById("2").style.background = "white";
+            document.getElementById("1").style.background = "white";
+            document.getElementById("3").style.background = "white";
+            let film = document.getElementById("film");
+            let réalisateur = document.getElementById("réalisateur");
+            let court = document.getElementById("court");
+            let son = document.getElementById("son");
+            if(getComputedStyle(film).display != "none" || getComputedStyle(réalisateur).display != "none" || getComputedStyle(court).display != "none"){
+                son.style.display = "table";
+                film.style.display = "none";
+                réalisateur.style.display = "none";
+                court.style.display = "none";
+            } else {
+                son.style.display = "table";
+            }
+        };
+
+        function iconDroit(){
+            if (document.getElementById("1").style.background == "yellow"){
+                showRéalisateur();
+            }
+            else if (document.getElementById("2").style.background == "yellow"){
+                showCourt();
+            }
+            else if (document.getElementById("3").style.background == "yellow"){
+                showSon();
+            }
+           
+        }
+
+        function iconGauche(){
+            if (document.getElementById("2").style.background == "yellow"){
+                showFilm();
+            }
+            else if (document.getElementById("3").style.background == "yellow"){
+                showRéalisateur();
+            }
+            else if (document.getElementById("4").style.background == "yellow"){
+                showCourt();
+            }
+        }
+
+
+
+    </script>
+</html>

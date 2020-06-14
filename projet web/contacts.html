@@ -1,0 +1,99 @@
+<html>
+    <head>
+        <link rel="icon" href="favicon.ico" type="image/x-icon"> 
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <title> Contacts - Media Planet</title>
+        <link href="contacts.css"  rel="stylesheet"/> 
+
+        
+        
+    
+
+        <a href="projet.html"> <img src="logo.png"  class="logo" > </a>
+        <img src="noir.png" class="bandeau">
+        <div class="contacts">
+            <a href="contacts.html" > CONTACTS</a>
+        </div>
+        <div class="films_venir" >
+            <a href="film_a_venir.html" >NOUVEAUX FILMS </a>
+        </div>
+        <div class="films_categories">
+            <a href="categories.html" >CATÉGORIES </a>
+        </div>
+        <div class="acteurs">
+            <a href="acteurs.html" >ACTEURS</a>
+        </div>
+        <div class="jouer">
+            <a href="noter.html" >JOUER</a>
+        </div>
+        <div class="remerciement">
+            <a href="remerciement.html" >CÉSAR</a>
+        </div>
+    </head>
+
+    <body>
+
+        <div class="createurs">Créateurs de </div>
+        <div class="mediaplanet">Media Planet</div>
+      <div class="container">
+        <img src="hugo.jpeg" alt="" class="hugo" width="12%">
+        
+        <div class="overlay">
+           <div class="text">Hugo PAGNY</div>
+       </div>
+      </div>  
+      <div class="container2">
+        <img src="benoit.png" alt="" class="benoit" width="12%">
+        
+        <div class="overlay2">
+           <div class="text2">Benoit CIMETIÈRE</div>
+       </div>
+      </div>  
+
+      <ul class="liste1">
+        <pre><li> Designer pages : </li> <br>     - Contacts     <br>     - Acteurs     <br>     - César </pre>
+        <pre><li id="li1">Créations pages :<br><br>     - Contacts<br>     - Acteurs<br>     - César</li></pre>
+      </ul>
+
+      <ul class="liste2">
+        <pre><li> Designer pages : </li> <br>     - Accueil     <br>     - Nouveaux films     <br>     - Jouer<br>     - Catégories</pre>
+        <pre><li id="li1">Créations pages :<br><br>     - Accueil<br>     - Nouveaux films<br>     - Jouer<br>     - Catégories</pre></li>
+      </ul>
+      
+     
+
+
+    </body>
+
+    <footer>
+        <img id="footer" src="noir.png"/>
+
+        <div class="suivez">SUIVEZ-NOUS</div>
+        <div> © Made in EFREI</div>
+        <a href="https://www.facebook.com/benoit.cimetiere" target="_blank">  <img src="facebook.png" class="facebook" width="6%"> </a>
+        <a href="https://twitter.com/PgyHugo" target="_blank">  <img src="twitter.png" class="twitter" width="5%">  </a>
+        <a href="https://www.youtube.com/channel/UCJ8uER1xfmdC9TY87EzDRkQ?view_as=subscriber" target="_blank">  <img src="youtube.png" class="youtube" width="4%">   </a>
+    </footer>
+
+    <script>
+        
+        function search_animal() { 
+            let input = document.getElementById('searchbar').value 
+            input=input.toLowerCase(); 
+            let x = document.getElementsByClassName('search'); 
+
+            for (i = 0; i < x.length; i++) {  
+                if (!x[i].innerHTML.toLowerCase().includes(input)) { 
+                    x[i].style.display="none"; 
+                } 
+                else { 
+                    x[i].style.display="table";                  
+                } 
+            } 
+        }
+
+
+
+
+    </script>
+</html>

@@ -1,0 +1,199 @@
+<html>
+    <head>
+        <link rel="icon" href="favicon.ico" type="image/x-icon"> 
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <title> Jouer - Media Planet</title>
+        <link href="noter.css"  rel="stylesheet"/> 
+
+       
+
+        <a href="projet.html"> <img src="logo.png"  class="logo" > </a>
+        <img src="noir.png" class="bandeau">
+        
+        <div class="contacts">
+            <a href="contacts.html" > CONTACTS</a>
+        </div>
+        <div class="films_venir" >
+            <a href="film_a_venir.html" >NOUVEAUX FILMS </a>
+        </div>
+        <div class="films_categories">
+            <a href="categories.html" >CATÉGORIES </a>
+        </div>
+        <div class="acteurs">
+            <a href="acteurs.html" >ACTEURS</a>
+        </div>
+        <div class="jouer">
+            <a href="noter.html" >JOUER</a>
+        </div>
+        <div class="remerciement">
+            <a href="remerciement.html" >CÉSAR</a>
+        </div>
+    </head>
+
+    <body>
+        <form name="formulaire">
+            <div class="division">
+                <input id="titre" name="titre" type="text" placeholder="TITRE" onfocus="this.value=''" autocomplete="off" required>
+                <input id="synopsis" name="synopsis" type="text" placeholder="SYNOPSIS" onfocus="this.value=''" autocomplete="off" required>
+                <input id="image" name="image" type="text" placeholder="URL IMAGE" onfocus="this.value=''" autocomplete="off" required>
+                <select id="genre" name="genre" type="select" required>
+                    <option value=""> -- GENRE -- </option>
+                    <option value="1"> Comédie</option>
+                    <option value="2"> Science-Fiction</option>
+                    <option value="3"> Romance</option>
+                    <option value="4">Drame</option>
+                    <option value="5">Fantastique</option>
+                    <option value="6">Horreur</option>
+                    <option value="7">Historique</option>
+                </select>
+            </div>
+           
+            <div>
+                <br>
+                <button class="boutton" onclick="if (validation() == true){ Ajouter() }"> Ajouter </button>
+                <button class="boutton" onclick="Suppression()"> Supprimer </button>
+            </div>
+        </form>
+        <div>  <br> </div>
+
+        <table id="tableau">
+            <thead>
+                <tr>
+                    <th>
+                        COUVERTURE 
+                    </th>
+                    <th>
+                        TITRE
+                    </th>
+                    <th>
+                        SYNOPSIS
+                    </th>
+                    <th>
+                        GENRE
+                    </th>
+                </tr>
+
+            </thead>
+            
+        </table>
+
+
+
+        <script>
+      
+            function Ajouter() 
+            {       
+                   
+                    var saisie = document.getElementById("image").value;
+                    TR = document.createElement("tr");
+                    TD1  = document.createElement("td");
+                    TXT1 = document.createElement('img');
+                    var test = Math.random()
+                    TXT1.id = test;
+                    TXT1.src=saisie;
+                    TD1.appendChild(TXT1);
+                    TR.appendChild(TD1);
+    
+                    var saisie = document.getElementById("titre").value;
+                    TD2  = document.createElement("td");
+                    TXT2 = document.createTextNode(saisie);
+                    TD2.appendChild(TXT2);
+                    TR.appendChild(TD2);
+    
+                    var saisie = document.getElementById("synopsis").value;
+                    TD3  = document.createElement("td");
+                    TXT3 = document.createTextNode(saisie);
+                    TD3.appendChild(TXT3);
+                    TR.appendChild(TD3);
+    
+                    var saisie = document.getElementById("genre").value;
+                    TD4  = document.createElement("td");
+                    TXT4 = document.createTextNode(saisie);
+                    TD4.appendChild(TXT4);
+                    TR.appendChild(TD4);
+    
+                    document.getElementById("tableau").appendChild(TR);
+                    
+                    event.preventDefault();
+
+                    document.getElementById(test).width = "100";
+
+                    alert("Bravo vous avez créé votre propre film !");
+                    
+            };
+
+            function Suppression()
+            {
+                document.getElementById('tableau').deleteRow(-1);
+                event.preventDefault();
+            };
+    
+            function validation() {
+                var titre = document.forms["formulaire"]["titre"].value;
+                var image = document.forms["formulaire"]["image"].value;
+                var genre = document.forms["formulaire"]["genre"].value;
+                var synopsis = document.forms["formulaire"]["synopsis"].value;
+                event.preventDefault();
+                if (titre == "") {
+                    alert("Ajouter un TITRE s'il vous plaît");
+                    
+                    return false;
+                    
+                }
+                if (synopsis == "") {
+                    alert("Ajouter un SYNOPSIS s'il vous plaît");
+                    
+                    return false;
+                   
+                }
+                if (image == ""){
+                    alert("Ajouter un l'adresse de l'image s'il vous plaît");
+                   
+                    return false;
+               
+                }
+                if (genre == ""){
+                    alert("Ajouter un GENRE s'il vous plaît");
+                    
+                    return false;
+                    
+                }
+
+             
+                return true;
+         
+                
+            }           
+
+            
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        </script>
+
+
+
+
+      
+    </body>
+
+    <footer>
+        <img id="footer" src="noir.png"/>
+        
+        <div class="suivez">SUIVEZ-NOUS</div>
+       
+        <a href="https://www.facebook.com/benoit.cimetiere" target="_blank">  <img src="facebook.png" class="facebook" width="6%"> </a>
+        <a href="https://twitter.com/PgyHugo" target="_blank">  <img src="twitter.png" class="twitter" width="5%">  </a>
+        <a href="https://www.youtube.com/channel/UCJ8uER1xfmdC9TY87EzDRkQ?view_as=subscriber" target="_blank">  <img src="youtube.png" class="youtube" width="4%">   </a>
+    </footer>
+
+   
+</html>
